@@ -16,13 +16,13 @@ Your project must:
 1. Allow a user to search for a movie by name 
 2. Display search results either in a table view or collection view. 
 3. The results should show the movie title, rating, and summary.
+4. Display the poster of each movie on your custom cell (Hint, the URL for fetching a movies image is: http://image.tmdb.org/t/p/w500/(imageEndpoint))
 
 ### Black Diamonds
 
-1. Display the poster of each movie on your custom cell (The only additional hint I will give is the URL for fetching a movie's image, since it is pretty difficult to find: http://image.tmdb.org/t/p/w500/(imageEndpoint))
-2. Tapping on a movie shows a detail view with more information.
-3. Allow marking a movie as a favorite.
-4. Add a tab that shows all favorited movies.
+1. Tapping on a movie shows a detail view with more information.
+2. Allow marking a movie as a favorite.
+3. Add a tab that shows all favorited movies.
 
 
 ## Covered Concepts
