@@ -1,7 +1,40 @@
 # Instructions for MovieSearch
+---
 
-MovieSearch is designed to help you practice using what you've learned in this Unit. To complete this challenge you will need to be familiar with closures, asynchronous calls, URLSession, failable initializers, parsing through the returned data from network APIs, and working with network API documentation.
+## Requirements
+---
 
-Please fork and clone this repository, then watch the screen recording provided before starting. This will show you what you need to build. Your project must allow a user to search for a movie by name, and should display search results either in a table view or collection view. The results should show the movie title, rating, summary, and poster.
+Please fork and clone this repository, then watch the screen recording provided before starting. This will show you what you need to build. 
 
-The documentation for the API you should use can be found at https://developers.themoviedb.org/3/getting-started. The documentation for this API is a little harder to navigate than what you might be used to so be sure to spend a sufficient amount of time going over the documentation to make sure you find the correct URL to use and that you can get sample JSON. You will also need to register for an API key. The only additional hint I will give is the URL for fetching a movie's image, since it is pretty difficult to find: http://image.tmdb.org/t/p/w500/(imageEndpoint)
+
+The documentation for the API you should use can be found at https://developers.themoviedb.org/3/getting-started. The documentation for this API is a little harder to navigate than what you might be used to so be sure to spend a sufficient amount of time going over the documentation to make sure you find the correct URL to use and that you can get sample JSON. **You will also need to register for an API key if you do not have one already.** 
+
+**You will have 3 hours and 30 minutes to complete this challenge.**
+
+Your project must:
+
+1. Allow a user to search for a movie by name 
+2. Display search results either in a table view or collection view. 
+3. The results should show the movie title, rating, and summary.
+
+### Black Diamonds
+
+1. Display the poster of each movie on your custom cell (The only additional hint I will give is the URL for fetching a movie's image, since it is pretty difficult to find: http://image.tmdb.org/t/p/w500/(imageEndpoint))
+2. Tapping on a movie shows a detail view with more information.
+3. Allow marking a movie as a favorite.
+4. Add a tab that shows all favorited movies.
+
+
+## Covered Concepts
+
+To complete this challenge you will need to be familiar with the following from this unit:
+
+1. Closures
+2. Asynchronous calls
+3. URLSession
+4. Failable initializers
+5. Parsing through the returned data in JSON format from network APIs
+6. Working with network API documentation.
+7. Intermediate UITableView concepts such as custom cells.
+
+
